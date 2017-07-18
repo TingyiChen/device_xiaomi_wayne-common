@@ -442,6 +442,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndk_package
 
+# Soter
+PRODUCT_PACKAGES += \
+    soter
+
+PRODUCT_BOOT_JARS += \
+    soter
+
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
